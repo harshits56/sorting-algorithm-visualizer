@@ -21,6 +21,11 @@ A web-based Sorting Algorithm Visualizer built with **React** and **Redux**, des
 - A unified animation engine replays steps using timed state updates
 - UI components remain stateless and react to Redux state changes
 
+## Deployment
+The project is deployed as a static site using Netlify.
+
+🔗 Live Demo: https://sorting-visualizer-harshit.netlify.app
+
 ## Getting Started
 
 ```bash
