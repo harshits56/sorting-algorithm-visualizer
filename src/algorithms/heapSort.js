@@ -3,12 +3,10 @@ export function heapSort(array) {
   const arr = [...array];
   const n = arr.length;
 
-  // Build max heap
   for (let i = Math.floor(n / 2) - 1; i >= 0; i--) {
     heapify(arr, n, i, animations);
   }
 
-  // Extract elements one by one
   for (let i = n - 1; i > 0; i--) {
     animations.push({
       type: "swap",

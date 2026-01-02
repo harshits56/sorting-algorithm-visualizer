@@ -4,14 +4,12 @@ export function bubbleSort(array) {
 
   for (let i = 0; i < arr.length; i++) {
     for (let j = 0; j < arr.length - i - 1; j++) {
-      // comparison
       animations.push({
         type: "compare",
         indices: [j, j + 1],
       });
 
       if (arr[j] > arr[j + 1]) {
-        // swap
         animations.push({
           type: "swap",
           indices: [j, j + 1],
